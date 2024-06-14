@@ -1,15 +1,20 @@
-#homebg{
-    background-image: url("./homebg.png");
+#bghome{
+    background-image: url("./green-lines.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:20%;
+
 }
-#homebg2{
-    background-image: url("./homebg2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+#home_third{
+    /* background-color: #022c60; */
+    background-color: #8D77AB;
+    /* background-color: #F2931C; */
 }
-#homebg3{
-    background-image: url("./homebg3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+#home_fourth{
+    background-color: #E3DFD6;
+}
+#homecard{
+    color:#8D77AB;
+}
+#imageservice{
+    box-shadow:0px 20px 25px -5px #8D77AB ;
 }

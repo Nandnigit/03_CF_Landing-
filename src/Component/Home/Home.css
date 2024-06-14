@@ -1,0 +1,15 @@
+#homebg{
+    background-image: url("./homebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homebg2{
+    background-image: url("./homebg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homebg3{
+    background-image: url("./homebg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

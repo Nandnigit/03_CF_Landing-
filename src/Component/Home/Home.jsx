@@ -6,8 +6,8 @@ function Home() {
   return (
     <>
       
-        <div className=' flex justify-start px-16 py-40 min-h-screen' id='homebg'>
-            <div className=' flex flex-col px-10 py-10 gap-4 align-middle md:w[40%] '>
+        <div className=' flex justify-start px-5 md:px-16 py-40 min-h-screen' id='homebg'>
+            <div className=' flex flex-col md:px-10 py-10 gap-4 align-middle md:w[40%] '>
                 <h1 className=' font-extrabold text-5xl text-yellow-400 md:w-[40%] '>AI-Enabled Resume and Cover Letter Builders & Templates</h1>
                 <div className=' text-white text-2xl'>Upgrade your career now with our Robust AI </div>
                 <div>
@@ -18,8 +18,8 @@ function Home() {
         </div>
 
 
-        <div className=' flex justify-start px-16 py-40 min-h-screen ' id='homebg2'>
-          <div className=' flex flex-col px-10 py-10 gap-7'>
+        <div className=' flex justify-start px-5 md:px-16 py-40 min-h-screen ' id='homebg2'>
+          <div className=' flex flex-col md:px-10 py-10 gap-7'>
             <h1 className=' font-extrabold text-5xl '>Check AI Resume Score</h1>
             <div>
                 <h1 className=' font-semibold text-2xl'>Why Its Important</h1>
@@ -35,9 +35,9 @@ function Home() {
         </div>
 
 
-        <div className=' px-16 py-20 text-white min-h-screen' id='homebg3'>
+        <div className=' px-5 md:px-16 py-20 text-white min-h-screen' id='homebg3'>
            <h1 className=' font-bold text-white text-4xl text-center'>Our AI Solutions</h1>
-           <div className=' flex  gap-5 justify-center px-5 py-10 '>
+           <div className=' flex flex-col md:flex-row  gap-5 justify-center px-5 py-10 '>
             <div className='  bg-orange-400 rounded-2xl flex flex-col gap-3 px-5 py-5'>
                 <h1 className=' font-bold text-3xl'>Analyze Resume</h1>
                 <h2 className=' font-semibold text-xl '>Why It is Important</h2>

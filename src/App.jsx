@@ -13,10 +13,10 @@ function App() {
     <>
    
     <Home_first/>
-    {/* <Job_Search/>
-    <Subscription/> */}
-    {/* <Resume_Guide/> */}
-     {/* <FAQ/>  */}
+    <Job_Search/>
+    <Subscription/>
+    <Resume_Guide/>
+     <FAQ/> 
      
     </>
   )

@@ -17,8 +17,8 @@ import cvimage3 from './cv3.jpg'
 function Home_Third() {
   return (
     <>
-    <div className=' bg-gray-100 py-10 mb-3'>
-      {/* <div className=' flex justify-center bg-gray-100'>
+    <div className=' bg-gray-200  py-10 mb-3' >
+      <div className=' flex justify-center '>
         <div className=' md:w-[78%] rounded-xl py-5 px-4' id='home_third'>
           
         <div className=' flex flex-col gap-2 justify-evenly md:flex-row  text-white rounded-xl  px-5 ' >
@@ -76,13 +76,13 @@ function Home_Third() {
                 
         </div>
       </div>
-      </div> */}
+      </div>
 
    {/* <Home_Video/> */}
 
 {/* Start Building component */}
 
-      <div className='flex flex-col gap-5 border-2 my-8 rounded-xl bg-white justify-center px-5 py-10 shadow-md shadow-gray-600 md:mx-auto md:w-[78%]'>
+      <div className='flex flex-col gap-5  my-8 rounded-xl bg-white justify-center px-5 py-10 shadow-md shadow-gray-600 md:mx-auto md:w-[78%]'>
   <div className='flex flex-col items-center'>
     <h1 className='text-5xl font-bold text-center py-6'>Explore Our Wide Range Of Trending Templates That Recruiters Loves To See
     </h1>
@@ -114,11 +114,11 @@ function Home_Third() {
 </div>
 
 
-<Home_Fourth/>
+{/* <Home_Fourth/> */}
 
 {/* Make your Resume component */}
 
-{/* <div className='flex flex-col gap-5 px-9 py-7 shadow-xl shadow-gray-600 bg-white rounded-xl md:mx-auto md:w-[79%]'>
+<div className='flex flex-col gap-5 px-9 py-7 shadow-xl shadow-gray-600 bg-white rounded-xl md:mx-auto md:w-[79%]'>
   <div className='flex flex-col items-center'>
     <h1 className='text-5xl font-bold text-center py-6'>Make Your Resume Using Real-World Examples</h1>
     <p className=' text-xl'>Browse <span className=' font-semibold text-blue-600'>350+ popular resume</span> examples covering all types of jobs, industries and levels of experience. Every example has been reviewed and approved by a Certified Professional Resume Writer (CPRW).
@@ -138,7 +138,7 @@ function Home_Third() {
       </div>
     ))}
   </div>
-</div> */}
+</div>
 
 
 {/* Looking for CV or Cover Letter */}

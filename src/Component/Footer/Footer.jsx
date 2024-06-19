@@ -17,7 +17,7 @@ const Footer = () => {
                     <h2 className="text-lg font-semibold text-white">Get Our Weekly</h2>
                     <form className="flex flex-col md:flex-row gap-3">
                         <input type="email" placeholder="Type your email..." required className="p-2  rounded" />
-                        <button type="submit" className="md:px-4 md:py-1 p-1 rounded-full bg-white text-white hover:bg-orange-500">Subscribe</button>
+                        <button type="submit" className="md:px-4 md:py-1 p-1 rounded-full bg-white text-black hover:bg-orange-500">Subscribe</button>
                     </form>
                 </div>
                 </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container text-base md:mx-auto text-center border-t border-white pt-6 mt-6">
-                <p className="text-white text-right">&copy; Copyright By Perfect Resume.com All Rights Reserved</p>
+                <p className="text-white text-right">&copy; Copyright By PerfectResume.ca All Rights Reserved</p>
             </div>
         </footer>
         </>

@@ -20,14 +20,14 @@ const Navbar = () => {
           </div>
           <div className="flex items-center">
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8" id='nav'>
-              <Link to="/slide/0" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Resume Score</Link>
-              <Link to="/slide/1" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>AI Resume Builder</Link>
-              <Link to="/slide/2" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>AI Resume Fetch</Link>
-              <Link to="/slide/3" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Resources</Link>
-              <Link to="https://blog.abroadium.com/about-us/" target='_blank' className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>About Us</Link>
-              <Link to="https://blog.abroadium.com/" target='_blank' className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Blog</Link>
-              <Link to="/" className="text-black px-2 py-2 text-lg font-semibold  rounded-xl " id='home_fourth'>Log in</Link>
-              <Link to="/" className="text-white  px-2 py-2 text-lg font-semibold border-2 rounded-xl" id='nav'>Sign up</Link>
+              <Link to="/" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Resume Score</Link>
+              <Link to="/" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>AI Resume Builder</Link>
+              <Link to="/" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>AI Resume Fetch</Link>
+              <Link to="/" className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Resources</Link>
+              <Link to="/" target='_blank' className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>About Us</Link>
+              <Link to="/" target='_blank' className="text-white  px-3 py-2 rounded-md text-lg font-semibold" id='nav'>Blog</Link>
+              <Link to="/login" className="text-black px-2 py-2 text-lg font-semibold  rounded-xl " id='home_fourth'>Log in</Link>
+              <Link to="/signup" className="text-white  px-2 py-2 text-lg font-semibold border-2 rounded-xl" id='nav'>Sign up</Link>
             </div>
              <div className="flex sm:hidden">
               <button

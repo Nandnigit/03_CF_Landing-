@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import image1 from './homeimage1.jpg';
 import image2 from './homeimage2.jpg';
 import image3 from './homeimage3.jpg';
-// import image4 from './homeimage4.jpg';
+import image4 from './homeimage4.jpg';
 
 const Home_Image = () => {
     const settings = {
@@ -21,7 +21,8 @@ const Home_Image = () => {
     const images = [
         image1,
         image2,
-        image3
+        image3,
+        image4
     ];
 
     return (

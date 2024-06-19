@@ -16,7 +16,7 @@ function Home_first() {
                             </div>
             <div className='  px-3 py-3 md:w-[500px]'>
                 <div className=' flex flex-col gap-4 '>
-                    <div className=' font-extrabold text-5xl font-sans'>AI Powered, Is Now Live</div>
+                    <div className=' font-extrabold text-5xl font-sans'>AI Enabled, Perfect Resume Builder</div>
                     <div className=' text-lg font-medium text-slate-700'>Resume Score, Enhanced Resume & much more. Now Apply Job with confidence with our all in one solution under one roof.</div>
                     <div className=' flex flex-wrap gap-4'>
                         <button className='  px-6 py-2 text-lg rounded-full font-bold hover:shadow-2xl hover:shadow-slate-500' id='home_third'> Sign Up!-It's 100% Free!</button>
@@ -30,7 +30,7 @@ function Home_first() {
         </div>
       </div>
 
-      <Slider_details/>
+      {/* <Slider_details/> */}
      
       <Home_Second/>
     </>

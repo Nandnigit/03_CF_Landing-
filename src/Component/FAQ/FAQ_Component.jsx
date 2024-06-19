@@ -6,11 +6,11 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What is Resume Builder?",
-      answer: "A resume builder is an app or software program anyone can use to quickly and easily make resumes, cover letters and CVs. Many sites, including Resume Now, offer a resume builder service to help you through every resume section, offering tips and guidance along the way. Builders automate parts of the resume-writing process using AI to generate text suggestions based on your work experience. For example, someone who worked in retail would type in their previous job title to get dozens of auto-generated work experience bullet points. They could then edit the text to make it more specific and showcase their unique contributions.Additionally, you can use a free resume builder or a premium one. With a premium builder, you’ll have more download options. When you finish your competitive resume in just a few minutes, you can download the resume in any file format you like."
+      answer: "A resume builder is an app or software program anyone can use to quickly and easily make resumes, cover letters and CVs. Many sites, including , offer a resume builder service to help you through every resume section, offering tips and guidance along the way. Builders automate parts of the resume-writing process using AI to generate text suggestions based on your work experience. For example, someone who worked in retail would type in their previous job title to get dozens of auto-generated work experience bullet points. They could then edit the text to make it more specific and showcase their unique contributions.Additionally, you can use a free resume builder or a premium one. With a premium builder, you’ll have more download options. When you finish your competitive resume in just a few minutes, you can download the resume in any file format you like."
     },
     {
       question: "What's unique about using online resume builder to build my resume?",
-      answer: "Learning how to write a resume from scratch isn’t easy. But Resume Now’s resume generator makes resume building pain-free, fast and straightforward so anyone in any industry can build a professional resume in minutes. Plus, with our application tracking feature, you’ll know when the hiring manager looks at your resume. And, you won’t find our HR-approved template designs anywhere else. Finally, our Resume Builder is free to use, so you can get started on your document without adding your card."
+      answer: "Learning how to write a resume from scratch isn’t easy. But ’s resume generator makes resume building pain-free, fast and straightforward so anyone in any industry can build a professional resume in minutes. Plus, with our application tracking feature, you’ll know when the hiring manager looks at your resume. And, you won’t find our HR-approved template designs anywhere else. Finally, our Resume Builder is free to use, so you can get started on your document without adding your card."
     },
     {
       question: "Is this Resume builder Free?",
@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       question: "Are Your Resume ATS Friendly?",
-      answer: "Yes! All of Resume Now’s resume templates are designed to be easy to scan by both humans and applicant tracking systems (ATS). An ATS is software that scans resumes, screens them for critical information — such as specific skills and experience — and eliminates unqualified applicants.In addition to offering ATS-friendly templates, our builder’s prewritten content suggestions help you choose the critical keywords employers look for in top candidates for your specific job title. Available in our Resume Builder, these content suggestions make it quick and easy to build a strong resume. We also offer Microsoft Word and Google Doc resume templates that are ATS-compatible."
+      answer: "Yes! All of ’s resume templates are designed to be easy to scan by both humans and applicant tracking systems (ATS). An ATS is software that scans resumes, screens them for critical information — such as specific skills and experience — and eliminates unqualified applicants.In addition to offering ATS-friendly templates, our builder’s prewritten content suggestions help you choose the critical keywords employers look for in top candidates for your specific job title. Available in our Resume Builder, these content suggestions make it quick and easy to build a strong resume. We also offer Microsoft Word and Google Doc resume templates that are ATS-compatible."
     },
     {
       question: "Can I make CV in your Resume maker?",
@@ -72,10 +72,10 @@ const FAQ = () => {
       question: "What is a CPRW?",
       answer: "CPRW stands for Certified Professional Resume Writer. The CPRW credential is awarded by the Professional Association of Resume Writers & Career Coaches (PARWCC) to those who have passed a rigorous resume-writing exam. This credential is the global industry standard for professional resume writers and shows that the individual with the credential possesses the highest level of resume-writing knowledge and a commitment to excellence in the field."
     },
-    {
-      question: "Where can I get support from the Resume NOW Team?",
-      answer: "Need help with your resume or cover letter? Have questions about billing or need technical support? Our customer service team is here for you seven days a week. Click here to contact us via telephone, chat or email today!"
-    }
+    // {
+    //   question: "Where can I get support from the  Team?",
+    //   answer: "Need help with your resume or cover letter? Have questions about billing or need technical support? Our customer service team is here for you seven days a week. Click here to contact us via telephone, chat or email today!"
+    // }
   ];
 
   return (

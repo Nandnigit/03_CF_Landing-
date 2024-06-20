@@ -8,6 +8,7 @@ import Slider from './Component/Home/Slider.jsx'
 import Slider_details from './Component/Home/Slider_details.jsx'
 import Login from './Component/Login/Login.jsx'
 import Signup from './Component/Login/Signup.jsx'
+import { ToastBar, Toaster } from 'react-hot-toast'
 const route =createBrowserRouter([
   {
     path:"/",
@@ -37,5 +38,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router ={route}/>
     {/* <App /> */}
+    <Toaster/>
   </React.StrictMode>,
 )

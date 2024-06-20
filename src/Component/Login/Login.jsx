@@ -40,7 +40,7 @@ function Login() {
           console.log("login Response", response);
         } catch (err) {
           console.log(err);
-          toast.error("An error occurred. Please try again.");
+          toast.error(`${err.response.data.message}`);
         }
       }
     };

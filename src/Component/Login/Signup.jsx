@@ -99,7 +99,7 @@ function Signup() {
           toast.error(`Error: ${err.response.data.message}`);
         }
       } else {
-        toast.error('An error occurred. Please try again.');
+        toast.error(`${err.response.data.message}`);
       }
     }
   };

@@ -72,7 +72,8 @@ function Signup() {
       const response = await axios.post(
         `https://api.perfectresume.ca/api/user/auth/signup`,
         body,
-        {
+        { 
+          withCredentials:true,
           headers: {
             'Content-Type': 'application/json',
           },

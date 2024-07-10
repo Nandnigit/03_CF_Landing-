@@ -70,7 +70,7 @@ function Signup() {
     try {
       console.log('Request Body:', body);
       const response = await axios.post(
-        `/api/user/auth/signup`,
+        `https://api.perfectresume.ca/api/user/auth/signup`,
         body,
         { 
           withCredentials:true,

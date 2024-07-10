@@ -5,7 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server:{
        proxy:{
-          '/api':"https://api.perfectresume.ca",
+          '/api':{
+            target:"https://api.perfectresume.ca",
+            changeOrigin: true,
+          }
        }
   },
   plugins: [react()],

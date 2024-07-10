@@ -20,7 +20,7 @@ function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        const url = `https://api.perfectresume.ca/api/user/auth/login`;
+        const url = `/api/user/auth/login`;
         console.log(url);
         if (!formData.email || !formData.password) {
             toast.error("Email and Password are required");
@@ -29,11 +29,10 @@ function Login() {
                 const response = await axios.post(
                     url,
                     formData,
-                    
                     {
                         withCredentials:true,
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json'
                         },
                     }
                 );

@@ -9,7 +9,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 // import Third_step from './Third_step'
 import Signup from "./Signup";
-import config from "../../Config/config";
 
 function Login() {
     const [isthirdstepOpen, setThirdstepOpen] = useState(false);
@@ -21,7 +20,7 @@ function Login() {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        const url = `${config.domain}/api/user/auth/login`;
+        const url = `https://api.perfectresume.ca/api/user/auth/login`;
         console.log(url);
         if (!formData.email || !formData.password) {
             toast.error("Email and Password are required");

@@ -3,7 +3,6 @@ import logo from './logo.jpg';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-import config from '../../Config/config';
 
 function Signup() {
   const [registerValues, setRegisterValues] = useState({
@@ -71,7 +70,7 @@ function Signup() {
     try {
       console.log('Request Body:', body);
       const response = await axios.post(
-        `${config.domain}/api/user/auth/signup`,
+        `https://api.perfectresume.ca/api/user/auth/signup`,
         body,
         {
           headers: {

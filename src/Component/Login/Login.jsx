@@ -27,7 +27,7 @@ function Login() {
         } else {
             try {
                 const response = await axios.post(
-                    "/api/user/auth/login",
+                    `${process.env.NODE_ENV === 'development' ? '' : 'https://api.perfectresume.ca'}/api/user/auth/login`,
                     formData,
                     {
                         withCredentials:true,

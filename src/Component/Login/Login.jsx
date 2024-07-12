@@ -23,7 +23,7 @@ function Login() {
         e.preventDefault();
         // const url = ``;
         // console.log(url);
-        console.log(`${process.env.NODE_ENV === 'development' ? '' : 'https://your-backend-url.com'}/api/user/auth/login`,)
+        console.log(`${process.env.NODE_ENV === 'development' ? '' : 'https://api.perfectresume.ca'}/api/user/auth/login`,)
         if (!formData.email || !formData.password) {
             toast.error("Email and Password are required");
         } else {

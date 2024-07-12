@@ -27,7 +27,7 @@ function Login() {
         } else {
             try {
                 const response = await axios.post(
-                    "https://api.perfectresume.ca/api/user/auth/login",
+                    "/api/user/auth/login",
                     formData,
                     {
                         withCredentials:true,

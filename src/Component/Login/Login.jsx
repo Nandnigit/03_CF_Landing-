@@ -38,9 +38,10 @@ function Login() {
                 );
                 if (response.status === 200) {
                     toast.success("Logged-in successfully!");
-                    navigate('/');
+                    navigate('/dashboard');
                 } else {
                     toast.error("Failed to log in.");
+                    navigate('/login')
                 }
                 console.log("login Response", response);
             } catch (err) {

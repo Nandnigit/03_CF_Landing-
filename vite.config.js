@@ -8,6 +8,7 @@ export default defineConfig({
           '/api':{
             target:"https://api.perfectresume.ca",
             changeOrigin: true,
+            secure:false,
           }
        }
   },

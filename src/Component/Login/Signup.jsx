@@ -66,11 +66,13 @@ function Signup() {
       phone: registerValues.phone,
       password: registerValues.password,
     };
+    console.log(`${process.env.NODE_ENV === 'development' ? '' : 'https://api.perfectresume.ca'}/api/user/auth/signup`)
 
     try {
       console.log('Request Body:', body);
       const response = await axios.post(
         `https://api.perfectresume.ca/api/user/auth/signup`,
+        `${process.env.NODE_ENV === 'development' ? '' : 'https://api.perfectresume.ca'}/api/user/auth/signup`,
         body,
         { 
           withCredentials:true,

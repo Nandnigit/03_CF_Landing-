@@ -6,6 +6,7 @@ module.exports = function (app) {
     createProxyMiddleware({
       target: 'https://api.perfectresume.ca',
       changeOrigin: true,
+      secure:false
     }),
   )
 }

@@ -21,7 +21,7 @@ function Login() {
     const handleLogin = async (e) => {
         e.preventDefault();
         // const url = ``;
-        console.log(url);
+        // console.log(url);
         if (!formData.email || !formData.password) {
             toast.error("Email and Password are required");
         } else {

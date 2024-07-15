@@ -28,20 +28,20 @@ const ProfileForm = () => {
   };
 
   return (
-    <div className="w-full p-4 md:p-6">
-      <div className="max-w-2xl mx-auto rounded-lg shadow-lg p-6">
+    <div className="p-2 md:p-6 ">
+      <div className="w-[15rem] md:w-full mx-auto rounded-lg shadow-lg px-4 py-2 md:p-6">
         <h1 className="text-2xl font-bold mb-6 text-center md:text-left">BASIC INFORMATION</h1>
         
         <form onSubmit={handleSubmit}>
           <div className="mb-6">
             <label className="block mb-2">Change Your Image:</label>
-            <div className="flex items-center">
+            <div className="md:flex items-center">
               <input type="text" className="flex-grow border p-2 mr-2" placeholder="Upload Image" readOnly />
               <button className="bg-gray-200 px-4 py-2">Browse</button>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block mb-2">First Name:</label>
               <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} className="w-full border p-2" />
@@ -79,7 +79,7 @@ const ProfileForm = () => {
 
           <h2 className="text-xl font-bold mb-4">CONTACT INFORMATION</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <div>
               <label className="block mb-2">Phone:</label>
               <input type="text" name="phone" value={formData.phone} onChange={handleChange} className="w-full border p-2" />

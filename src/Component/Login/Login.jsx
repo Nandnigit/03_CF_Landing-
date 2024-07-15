@@ -180,6 +180,9 @@ function Login() {
 
       if (response.status === 200) {
         toast.success("Login successfully");
+        console.log(response)
+        console.log("Token", response.data.data.token)
+        localStorage.setItem("token",response.data.data.token)
         navigate("/dashboard");
       } else {
         toast.error("Failed to Login");

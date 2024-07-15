@@ -12,6 +12,10 @@ import { ToastBar, Toaster } from 'react-hot-toast'
 import Dashboard from './Component/Dashboard/Dashboard.jsx'
 import DashboardLayout from './Component/Dashboard/Dashboard.jsx'
 import ProfileForm from './Component/Dashboard/ProfileForm.jsx'
+import MyResume from './Component/Dashboard/MyResume.jsx'
+import Selectionresume from './components/Selectionresume.jsx'
+import Uploadresume from './components/Uploadresume.jsx'
+import Form from './components/Forms';
 const route =createBrowserRouter([
   {
     path:"/",
@@ -45,7 +49,19 @@ const route =createBrowserRouter([
             path: "profile",
             element: <ProfileForm />
           },
-         ]
+          {
+            path:"resumes",
+            element:<MyResume/>
+          },
+          {
+            path: 'ai-resume-builder',
+            element: <Selectionresume />,
+            children: [
+              { path: 'uploadresume', element: <Uploadresume /> },
+              { path: 'form', element: <Form /> },
+            ],
+          },
+        ]
       }
       
     ]
@@ -59,3 +75,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Toaster/>
   </React.StrictMode>,
 )
+

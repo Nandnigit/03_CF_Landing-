@@ -4,7 +4,7 @@ import logo from '../components/images/logo3.png';
 import upload from '../components/images/upload.png';
 import edit from '../components/images/edit.png';
 import UploadScreen from "../components/loadingscreens/uploadscreen";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 function Selectionresume() {
   const navigate = useNavigate();
@@ -14,7 +14,8 @@ function Selectionresume() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate('uploadresume');
+      console.log("Navigating to /uploadresume"); // Debug log
+      navigate('/dashboard/uploadresume');
     }, 5000);
   };
 
@@ -22,7 +23,8 @@ function Selectionresume() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate('form');
+      console.log("Navigating to /form"); // Debug log
+      navigate('/dashboard/form');
     }, 5000);
   };
 

@@ -13,7 +13,7 @@ function Uploadresume() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      navigate('');
+      navigate('/dashboard/ai-resume-builder');
     }, 5000);
   };
 
@@ -51,7 +51,7 @@ function Uploadresume() {
             <button className="px-10 rounded-full py-2 text-lg text-violet-950 font-bold border border-violet-950" onClick={handleClick2}>Back</button>
           </div>
          </div>
-         <Footer/>
+         {/* <Footer/> */}
         </>
       )}
       

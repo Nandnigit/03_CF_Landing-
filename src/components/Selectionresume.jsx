@@ -14,7 +14,6 @@ function Selectionresume() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      console.log("Navigating to /uploadresume"); // Debug log
       navigate('/dashboard/uploadresume');
     }, 5000);
   };
@@ -23,7 +22,6 @@ function Selectionresume() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      console.log("Navigating to /form"); // Debug log
       navigate('/dashboard/form');
     }, 5000);
   };

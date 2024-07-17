@@ -112,6 +112,8 @@ import Selectionresume from "./components/Selectionresume.jsx";
 import Uploadresume from "./components/Uploadresume.jsx";
 import Form from "./components/Forms.jsx";
 import ProtectedRoute from "./Component/ProtectedRoute.jsx"; // Import the new component
+import store from "./app/store.js";
+import { Provider } from "react-redux";
 
 const route = createBrowserRouter([
   {
@@ -176,8 +178,10 @@ const route = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Provider store={store} >
     <RouterProvider router={route} />
     <App />
     <Toaster />
+    </Provider>
   </React.StrictMode>
 );

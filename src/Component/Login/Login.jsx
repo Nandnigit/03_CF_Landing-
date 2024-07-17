@@ -6,8 +6,11 @@ import Modal from "./Modal";
 import Signup from "./Signup";
 import axios from "axios";
 import "./Login.css";
+import { useDispatch } from "react-redux";
+import { login } from "../../Features/authSlice";
 
 function Login() {
+  const dispatch = useDispatch()
   const [isThirdstepOpen, setThirdstepOpen] = useState(false);
   const [formData, setFormData] = useState({
     email: "",
@@ -38,7 +41,8 @@ function Login() {
         toast.success("Login successfully");
         console.log(response)
         console.log("Token", response.data.data.token)
-        localStorage.setItem("token",response.data.data.token)
+        // localStorage.setItem("token",response.data.data.token)
+        dispatch(login(response.data.data.token))
         navigate("/dashboard");
       } else {
         toast.error("Failed to Login");

@@ -1,7 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
+import { logout } from "../../Features/authSlice";
+
 
 const Sidebar = ({ onClose }) => {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+  const handleLogout =()=>{
+        dispatch(logout())
+        navigate('/')
+  }
   return (
     <div className="bg-white h-screen p-4 border-r border-gray-200 md:block">
       {/* Sidebar links */}
@@ -87,15 +97,14 @@ const Sidebar = ({ onClose }) => {
           </Link>
         </li>
         <li>
-          <Link
-            to="/logout"
-            className="flex items-center p-2 hover:bg-blue-200 border-b-2 rounded"
-            onClick={onClose} // Close sidebar on link click
-          >
-            <span className="mr-2">🚪</span>
-            <span>Log Out</span>
-          </Link>
-        </li>
+        <button
+          onClick={handleLogout}
+          className="flex items-center p-2 hover:bg-blue-200 border-b-2 rounded w-full text-left"
+        >
+          <span className="mr-2">🚪</span>
+          <span>Log Out</span>
+        </button>
+      </li>
       </ul>
     </div>
   );
